@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+}
+
+.dn a:hover {
+    color: #900;
+}
+
+.dn {
+    float: right;
+    text-align: right;
+    color: blue;
+
+}
+
+section.productDetail div.detail .title {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    size: 5%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 500px;
+}
+
+section.productDetail div.detail table {
+    width: 100%;
+    height: 50%;
+    margin-left: 50px;
+}
+
+section.productDetail div.detail {
+    background-color: rgb(196, 228, 244);
+    width: 70%;
+    height: 100%;
+}
+
+section.productDetail .detail .collapse#collapseExample .cardcard-body {
+    background-color: rgb(196, 228, 244);
+}
+
+
+
+.ip {
+    clear: both;
+    height: auto;
+}
+
+nav.ip .btn-group {
+    padding-top: 20px;
+}
+
+nav.ip .input-group {
+    padding-top: 20px;
+    width: 1000px;
+    float: right;
+}
+
+
+
+
+div#body {
+    clear: both;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: black;
+    position: relative;
+    margin-top: 5px;
+}
+
+article {
+    display: table-row;
+}
+
+aside#left,
+aside#right,
+section {
+    display: table-cell;
+    vertical-align: top;
+}
+
+aside#left {
+    width: 20%;
+}
+
+aside#right {
+    width: 20%;
+}
+
+#left .bookBy {
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+#left .bookBy a :hover {
+    color: #900;
+}
+
+#right .rightSide {
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+#right .rightSide p#head {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: rgb(0, 8, 255, 0.749);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#right .rightSideLast {
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    background-color: rgb(165, 199, 229);
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+#right .rightSideLast p#head {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: rgb(0, 8, 255, 0.749);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#left .bookBy p {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: rgba(0, 8, 255, 0.749);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-box {
+    border: 1px dashed black;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(202, 229, 243);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product-box .photo {
+    width: 200px;
+    height: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-box .buttonbuy {
+    width: 40%;
+    height: 8%;
+
+}
+
+.product-box .namebook {
+    padding: 10px;
+    color: rgb(16, 16, 91);
+    font-size: x-large;
+}
+
+.product-box .namebook:hover {
+    font-style: italic;
+
+}
+
+.product-box .photo:hover {
+    transform: scale(1.1);
+}
+
+.head3 {
+    background-color: rgb(0, 8, 255, 0.749);
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.forSec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+
+}
+
+footer {
+    background-color: rgba(103, 208, 62, 0.899);
+    text-align: center;
+
+}
+
+.headRegis {
+    background-color: rgb(0, 8, 255, 0.749);
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+#tableRegis {
+    background-color: rgb(193, 217, 238);
+    border-color: black;
+    width: 600px;
+    height: 600px;
+    margin-top: 10px;
+}
+
+#container1 {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 85%;
+    height: 40px;
+    margin: 15px auto;
+}
+
+.sect {
+    background-color: #CFE2FF;
+    border-radius: 5px;
+    border: 1px solid blue;
+    text-align: center !important;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#username {
+    background-color: #F8D7DA !important;
+    padding: 10px;
+    margin-bottom: 0px !important;
+    margin-left: 10%;
+    border-bottom: 1px solid rgb(179, 175, 175);
+    width: 80%;
+}
+
+#password {
+    background-color: #F8D7DA !important;
+    padding: 10px;
+    margin-top: 0px !important;
+    border-bottom: 1px solid rgb(179, 175, 175);
+    width: 80%;
+    margin-left: 10%;
+}
+
+#inputGroup-sizing-default {
+    background: none !important;
+    border: none !important;
+    width: 20% !important;
+}
+
+#inputLogin {
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.buttonSignin {
+    text-align: center;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-footer {
+    border: none !important;
+}
+
+#modalcontent {
+    text-align: left !important;
+}
+
+#contact-container {
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0em 0 .4em lightgray, 0em 0 .4em lightgray;
+    margin: 30px auto;
+    padding: 15px !important;
+}
+
+#contact {
+    text-align: center;
+}
+
+.submitbutton #submit {
+    width: 80% !important;
+}
+.submitbutton{
+    padding-left: 15%!important;
+}

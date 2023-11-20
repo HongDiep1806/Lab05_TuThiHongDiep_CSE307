@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>ABC BookStore</title>
+    <link href="Style.css" rel="stylesheet" media="screen,print" />
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logoABCbook"><img src="img_Practice3/logoABCbook.png"></div>
+
+
+        <div class="dn"><i class="fa fa-user-circle-o" aria-hidden="true" style="color: black;"></i>
+            <a href="./login.html"><b style="color: blue;">Login|</b></a>
+            <a href="./Registration.html"><b style="color: blue;">Registration</b></a><i class="fa fa-shopping-cart"
+                aria-hidden="true" style="color: black;"></i><a href=""><b style="color: blue;">Cart</b></a>
+        </div>
+    </header>
+
+
+    <nav class="ip">
+        <div class="input"><input type="text" placeholder="Enter the title of the book"> <input type="submit"
+                value="Find book"></div>
+        <ul class="homepage">
+            <li><a href="./Homepage.html"><b>HOMEPAGE</b></a></li>
+            <li><a href="./Lab_1_5.html"><b>INTRODUCTION</b></a> </li>
+            <li><a href=""><b>CONTACT</b></a></li>
+        </ul>
+    </nav>
+
+
+    <div id="body">
+        <!-- Rules on the body of the page -->
+        <article>
+            <aside id="left">
+                <div class="bookBy">
+                    <p>
+                        <thead><b>SÁCH THEO CHỦ ĐỀ</b></thead>
+                    </p>
+                    <ul type="square">
+                        <li><a href="#">Ngoại ngữ</a></li>
+                        <li><a href="#">Công nghệ thông tin</a></li>
+                        <li><a href="#">Luật</a></li>
+                        <li><a href="#">Văn học</a></li>
+                        <li><a href="#">Khoa học kỹ thuật</a></li>
+                        <li><a href="#">Nông nghiệp</a></li>
+                        <li><a href="#">Lịch sử, địa lí</a></li>
+                        <li><a href="#">Kinh tế</a></li>
+                        <li><a href="#">Nghệ thuật sống</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="bookBy">
+                    <p>
+                        <thead><b>SÁCH THEO NHÀ XUẤT BẢN</b></thead>
+                    </p>
+
+                    <ul type="square">
+                        <li><a href="#">Nhà xuất bản Trẻ</a></li>
+                        <li><a href="#">NXB Thống kề</a></li>
+                        <li><a href="#">Kim đồng</a></li>
+                        <li><a href="#">Đại học quốc gia</a></li>
+                        <li><a href="#">Văn hóa nghệ thuật</a></li>
+                        <li><a href="#">Văn hóa</a></li>
+                        <li><a href="#">Lao động - Xã hội</a></li>
+                        <li><a href="#">Khoa Học & Kỹ Thuật</a></li>
+                    </ul>
+                </div>
+
+            </aside>
+
+
+
+            <section >
+                <h3 class="headRegis">MEMBER REGISTRATION</h3>
+                <center>
+                    <table id="tableRegis" >
+                        
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <fieldset >
+                                        <table>
+                                            <legend><b>Personal information</b></legend>
+                                            <tr>
+                                                <td>
+                                                    <label for="ho&ten">Full name: </label>
+                                                </td>
+                                                <td>
+                                                    <input type="text" name="name" id="name">
+            
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="ngaysinh">Birthday: </label>
+                                                </td>
+                                                <td>
+                                                    <select name="ngaysinh" id="">
+                                                        <option value="">01</option>
+                                                        <option value="">02</option>
+                                                        <option value="">03</option>
+                                                        <option value="">04</option>
+                                                        <option value="">05</option>
+                                                        <option value="">06</option>
+                                                        <option value="">07</option>
+                                                        <option value="">08</option>
+                                                        <option value="">09</option>
+                                                        <option value="">10</option>
+                                                        <option value="">11</option>
+                                                        <option value="">12</option>
+                                                        <option value="">13</option>
+                                                        <option value="">14</option>
+                                                        <option value="">15</option>
+                                                        <option value="">16</option>
+                                                        <option value="">17</option>
+                                                        <option value="">18</option>
+                                                        <option value="">19</option>
+                                                        <option value="">20</option>
+                                                        <option value="">21</option>
+                                                        <option value="">22</option>
+                                                        <option value="">23</option>
+                                                        <option value="">24</option>
+                                                        <option value="">25</option>
+                                                        <option value="">26</option>
+                                                        <option value="">27</option>
+                                                        <option value="">28</option>
+                                                        <option value="">29</option>
+                                                        <option value="">30</option>
+                                                        <option value="">31</option>
+                                                    </select>
+                                                    <label for="Thang">Month</label>
+                                                    <select name="thang" id="">
+                                                        <option value="">01</option>
+                                                        <option value="">02</option>
+                                                        <option value="">03</option>
+                                                        <option value="">04</option>
+                                                        <option value="">05</option>
+                                                        <option value="">06</option>
+                                                        <option value="">07</option>
+                                                        <option value="">08</option>
+                                                        <option value="">09</option>
+                                                        <option value="">10</option>
+                                                        <option value="">11</option>
+                                                        <option value="">12</option>
+                                                    </select>
+                                                    <label for="nam">Year</label>
+                                                    <input size="5" name="" id="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="">Gender: </label>
+                                                </td>
+                                                <td>
+                                                    <input type="radio" value="Nam" checked>Nam
+                                                    <input type="radio" value="nu">Nữ
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td> <label for="diachi">Address: </label></td>
+                                                <td> <textarea name="diachi" id="" cols="30" rows="3"></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td><label for="dt">Telephone: </label></td>
+                                                <td><input type="text" size="30%"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="email">Email: </label>
+                                                </td>
+                                                <td><input type="text" size="30%" required></td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+                                </center>
+                            </td>
+                        </tr>
+            
+            
+            
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <fieldset >
+                                        <table>
+                                            <legend><b>Credentials</b></legend>
+                                            <tr>
+                                                <td>
+                                                    <label for="tendangnhap">Username: </label>
+                                                </td>
+                                                <td><input type="text" size="30%" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="matkhau">Password</label>
+                                                </td>
+                                                <td><input size="30%" type="password" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td><label for="nhaplaimk">Confirm password: </label></td>
+                                                <td><input size="30%" type="password" required></td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+                                </center>
+                            </td>
+                        </tr>
+                </center>
+            
+            
+            
+            
+            
+                <tr>
+                    <td align="center">
+                        <button>Đăng ký</button>
+                        <button>Hủy</button>
+                    </td>
+                </tr>
+                </table>
+
+
+            </section>
+
+
+
+
+            <aside id="right">
+                <div class="rightSide">
+                    <p id="head">
+                        <thead><b>BESTSELLER</b></thead>
+                    </p>
+
+                    <marquee direction="up" scrollamount="10" scrolldelay="200" onMouseMove="stop()"
+                        onMouseOut="start()">
+                        <p><a href="#"><img style="width: 30%;height: 15%;" src="./img_Practice3/EnglishForTech.jpg">
+                                English
+                                For Teach
+                            </a></p>
+                        <p><a href="#"><img style="width: 30%;height: 15%;" src="./img_Practice3/Davinci.png"> Davinci
+                            </a></p>
+                        <p><a href="#"><img style="width: 30%;height: 15%;" src="./img_Practice3/BARC.png"> BARC
+                            </a></p>
+                        <p><a href="#"><img style="width: 30%;height: 15%;" src="./img_Practice3/VisualBasic.png">
+                                VisualBasic
+                            </a></p>
+                    </marquee>
+                </div>
+
+                <div class="rightSide">
+                    <p id="head">
+                        <thead><b>THE WEBSITE LINKS</b></thead>
+                    </p>
+                    <select name="links" id="links">
+                        <option value="">--- Select linking page ---</option>
+                        <option value=""> <a href=" https://lib.eiu.edu.vn/">Eastern International University
+                                Library</a>
+                        </option>
+                        <option value=""><a href="https://eiu.edu.vn/">Eastern International University</a></option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="rightSideLast">
+                    <p id="head">
+                        <thead><b>ACCESS STATISTICS</b></thead>
+                    </p>
+                    <h5 style="color: red;"><b>Total Access: 500</b></h5>
+                    <h5 style="color: red;"><b>Online: 3</b></h5>
+                </div>
+
+
+            </aside>
+        </article>
+    </div>
+
+    <footer>
+        ©2016 - ABC BookStror Allright Reserved
+        <br>Website is developed to be used as a hands-on exercise in Web Programming
+        <br>Email: abcbookstore@gmail.com
+    </footer>
+</body>
+
+
+
+
+
+</html>
